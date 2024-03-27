@@ -1,9 +1,9 @@
 <template>
   <q-page padding>
     <div class="card">
-      <div v-for="(artist, x) in artists" :key="x">
+      <div v-for="(datalink, x) in datalinks" :key="x">
         <img
-          :src="artist.imageUrlProp"
+          :src="datalink.imageUrlProp"
           width="100%"
           height="60%"
           class="image"
@@ -13,15 +13,15 @@
           style="gap: 15px; margin-top: 15px"
         >
           <img
-             :src="artist.imageUrlProp"
+             :src="datalink.imageUrlProp"
             width="40px"
             height="40px"
             style="border-radius: 50px"
           />
           <div>
-            <div class="title">{{ artist.title }}</div>
-            <div class="subtitle">{{ artist.subtitle }}</div>
-            <div class="subtitle">{{ artist.followers }}</div>
+            <div class="title">{{ datalink.title }}</div>
+            <div class="subtitle">{{ datalink.subtitle }}</div>
+            <div class="subtitle">{{ datalink.followers }}</div>
           </div>
         </div>
         </div>    
@@ -60,14 +60,13 @@
 </style>
 
 <script setup>
-import DataLink from  'components/DataLink.vue'
 defineOptions({
   name: "IndexPage",
 
   data() {
     return {
       
-      artists: [
+      datalinks: [
         {
           imageUrlProp: "https://cdn.quasar.dev/img/parallax1.jpg",
           title: "Mountain Image",
