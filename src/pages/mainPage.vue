@@ -1,103 +1,7 @@
 <template>
   <q-page padding>
-
     <div class="card">
-      <div>
-        <img
-          src="../assets/cards/parallax1.jpg"
-          width="100%"
-          height="60%"
-          class="image"
-        />
-        <div
-          class="flex flex-start items-center"
-          style="gap: 15px; margin-top: 15px"
-        >
-          <img
-            src="../assets/cards/parallax1.jpg"
-            width="40px"
-            height="40px"
-            style="border-radius: 50px"
-          />
-          <div>
-            <div class="title">Mountain Image</div>
-            <div class="subtitle">A mountain image with a caption.</div>
-            <div class="subtitle">100k</div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <img
-          src="../assets/cards/parallax1.jpg"
-          width="100%"
-          height="60%"
-          class="image"
-        />
-        <div
-          class="flex flex-start items-center"
-          style="gap: 15px; margin-top: 15px"
-        >
-          <img
-            src="../assets/cards/parallax1.jpg"
-            width="40px"
-            height="40px"
-            style="border-radius: 50px"
-          />
-          <div>
-            <div class="title">Mountain Image</div>
-            <div class="subtitle">A mountain image with a caption.</div>
-            <div class="subtitle">100k</div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <img
-          src="../assets/cards/parallax1.jpg"
-          width="100%"
-          height="60%"
-          class="image"
-        />
-        <div
-          class="flex flex-start items-center"
-          style="gap: 15px; margin-top: 15px"
-        >
-          <img
-            src="../assets/cards/parallax1.jpg"
-            width="40px"
-            height="40px"
-            style="border-radius: 50px"
-          />
-          <div>
-            <div class="title">Mountain Image</div>
-            <div class="subtitle">A mountain image with a caption.</div>
-            <div class="subtitle">100k</div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <img
-          src="../assets/cards/parallax1.jpg"
-          width="100%"
-          height="60%"
-          class="image"
-        />
-        <div
-          class="flex flex-start items-center"
-          style="gap: 15px; margin-top: 15px"
-        >
-          <img
-            src="../assets/cards/mountains.jpg"
-            width="40px"
-            height="40px"
-            style="border-radius: 50px"
-          />
-          <div>
-            <div class="title">Mountain Image</div>
-            <div class="subtitle">A mountain image with a caption.</div>
-            <div class="subtitle">100k</div>
-          </div>
-        </div>
-      </div>
+      
       <div>
         <img
           src="../assets/cards/mountains.jpg"
@@ -196,7 +100,7 @@
       </div>
       <div>
         <img
-          src="../assets/cards/quasar.jpg"
+          src="../assets/cards/parallax2.jpg"
           width="100%"
           height="60%"
           class="image"
@@ -206,7 +110,7 @@
           style="gap: 15px; margin-top: 15px"
         >
           <img
-            src="../assets/cards/quasar.jpg"
+            src="../assets/cards/parallax2.jpg"
             width="40px"
             height="40px"
             style="border-radius: 50px"
@@ -220,7 +124,7 @@
       </div>
       <div>
         <img
-          src="../assets/cards/quasar.jpg"
+          src="../assets/cards/parallax2.jpg"
           width="100%"
           height="60%"
           class="image"
@@ -230,7 +134,7 @@
           style="gap: 15px; margin-top: 15px"
         >
           <img
-            src="../assets/cards/quasar.jpg"
+            src="../assets/cards/parallax2.jpg"
             width="40px"
             height="40px"
             style="border-radius: 50px"
@@ -244,7 +148,7 @@
       </div>
       <div>
         <img
-          src="../assets/cards/quasar.jpg"
+          src="../assets/cards/parallax2.jpg"
           width="100%"
           height="60%"
           class="image"
@@ -254,7 +158,7 @@
           style="gap: 15px; margin-top: 15px"
         >
           <img
-            src="../assets/cards/quasar.jpg"
+            src="../assets/cards/parallax2.jpg"
             width="40px"
             height="40px"
             style="border-radius: 50px"
@@ -268,7 +172,7 @@
       </div>
       <div>
         <img
-          src="../assets/cards/quasar.jpg"
+          src="../assets/cards/parallax2.jpg"
           width="100%"
           height="60%"
           class="image"
@@ -278,7 +182,7 @@
           style="gap: 15px; margin-top: 15px"
         >
           <img
-            src="../assets/cards/parallax1.jpg"
+            src="../assets/cards/parallax2.jpg"
             width="40px"
             height="40px"
             style="border-radius: 50px"
@@ -290,6 +194,7 @@
           </div>
         </div>
       </div>
+      
       <div>
         <img
           src="../assets/cards/parallax1.jpg"
@@ -387,6 +292,106 @@
         </div>
       </div>
 
+      
+      <div>
+        <img
+          src="../assets/cards/quasar.jpg"
+          width="100%"
+          height="60%"
+          class="image"
+        />
+        <div
+          class="flex flex-start items-center"
+          style="gap: 15px; margin-top: 15px"
+        >
+          <img
+            src="../assets/cards/quasar.jpg"
+            width="40px"
+            height="40px"
+            style="border-radius: 50px"
+          />
+          <div>
+            <div class="title">Mountain Image</div>
+            <div class="subtitle">A mountain image with a caption.</div>
+            <div class="subtitle">100k</div>
+          </div>
+        </div>
+      </div>
+     <div>
+        <img
+          src="../assets/cards/quasar.jpg"
+          width="100%"
+          height="60%"
+          class="image"
+        />
+        <div
+          class="flex flex-start items-center"
+          style="gap: 15px; margin-top: 15px"
+        >
+          <img
+            src="../assets/cards/quasar.jpg"
+            width="40px"
+            height="40px"
+            style="border-radius: 50px"
+          />
+          <div>
+            <div class="title">Mountain Image</div>
+            <div class="subtitle">A mountain image with a caption.</div>
+            <div class="subtitle">100k</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img
+          src="../assets/cards/quasar.jpg"
+          width="100%"
+          height="60%"
+          class="image"
+        />
+        <div
+          class="flex flex-start items-center"
+          style="gap: 15px; margin-top: 15px"
+        >
+          <img
+            src="../assets/cards/quasar.jpg"
+            width="40px"
+            height="40px"
+            style="border-radius: 50px"
+          />
+          <div>
+            <div class="title">Mountain Image</div>
+            <div class="subtitle">A mountain image with a caption.</div>
+            <div class="subtitle">100k</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img
+          src="../assets/cards/quasar.jpg"
+          width="100%"
+          height="60%"
+          class="image"
+        />
+        <div
+          class="flex flex-start items-center"
+          style="gap: 15px; margin-top: 15px"
+        >
+          <img
+            src="../assets/cards/quasar.jpg"
+            width="40px"
+            height="40px"
+            style="border-radius: 50px"
+          />
+          <div>
+            <div class="title">Mountain Image</div>
+            <div class="subtitle">A mountain image with a caption.</div>
+            <div class="subtitle">100k</div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
     </div>
   </q-page>
 </template>

@@ -67,6 +67,55 @@ defineOptions({
     return {
       
       datalinks: [
+         {
+          imageUrlProp: "https://cdn.quasar.dev/img/mountains.jpg",
+          title: "Mountain Image",
+          subtitle: "A mountain image with a caption.",
+          followers: "100k",
+        },
+         {
+          imageUrlProp: "https://cdn.quasar.dev/img/mountains.jpg",
+          title: "Mountain Image",
+          subtitle: "A mountain image with a caption.",
+          followers: "100k",
+        },
+         {
+          imageUrlProp: "https://cdn.quasar.dev/img/mountains.jpg",
+          title: "Mountain Image",
+          subtitle: "A mountain image with a caption.",
+          followers: "100k",
+        },
+         {
+          imageUrlProp: "https://cdn.quasar.dev/img/mountains.jpg",
+          title: "Mountain Image",
+          subtitle: "A mountain image with a caption.",
+          followers: "100k",
+        },
+         {
+          imageUrlProp: "https://cdn.quasar.dev/img/parallax2.jpg",
+          title: "Mountain Image",
+          subtitle: "A mountain image with a caption.",
+          followers: "100k",
+        },
+         {
+          imageUrlProp: "https://cdn.quasar.dev/img/parallax2.jpg",
+          title: "Mountain Image",
+          subtitle: "A mountain image with a caption.",
+          followers: "100k",
+        },
+         {
+          imageUrlProp: "https://cdn.quasar.dev/img/parallax2.jpg",
+          title: "Mountain Image",
+          subtitle: "A mountain image with a caption.",
+          followers: "100k",
+        },
+         {
+          imageUrlProp: "https://cdn.quasar.dev/img/parallax2.jpg",
+          title: "Mountain Image",
+          subtitle: "A mountain image with a caption.",
+          followers: "100k",
+        },
+        
         {
           imageUrlProp: "https://cdn.quasar.dev/img/parallax1.jpg",
           title: "Mountain Image",
@@ -90,31 +139,8 @@ defineOptions({
           title: "Mountain Image",
           subtitle: "A mountain image with a caption.",
           followers: "100k",
-        },
-         {
-          imageUrlProp: "https://cdn.quasar.dev/img/mountains.jpg",
-          title: "Mountain Image",
-          subtitle: "A mountain image with a caption.",
-          followers: "100k",
-        },
-         {
-          imageUrlProp: "https://cdn.quasar.dev/img/mountains.jpg",
-          title: "Mountain Image",
-          subtitle: "A mountain image with a caption.",
-          followers: "100k",
-        },
-         {
-          imageUrlProp: "https://cdn.quasar.dev/img/mountains.jpg",
-          title: "Mountain Image",
-          subtitle: "A mountain image with a caption.",
-          followers: "100k",
-        },
-         {
-          imageUrlProp: "https://cdn.quasar.dev/img/mountains.jpg",
-          title: "Mountain Image",
-          subtitle: "A mountain image with a caption.",
-          followers: "100k",
-        },
+        },      
+        
          {
           imageUrlProp: "https://cdn.quasar.dev/img/quasar.jpg",
           title: "Mountain Image",
@@ -133,36 +159,13 @@ defineOptions({
           subtitle: "A mountain image with a caption.",
           followers: "100k",
         },
-         {
+        {
           imageUrlProp: "https://cdn.quasar.dev/img/quasar.jpg",
           title: "Mountain Image",
           subtitle: "A mountain image with a caption.",
           followers: "100k",
         },
-         {
-          imageUrlProp: "https://cdn.quasar.dev/img/parallax1.jpg",
-          title: "Mountain Image",
-          subtitle: "A mountain image with a caption.",
-          followers: "100k",
-        },
-         {
-          imageUrlProp: "https://cdn.quasar.dev/img/parallax1.jpg",
-          title: "Mountain Image",
-          subtitle: "A mountain image with a caption.",
-          followers: "100k",
-        },
-         {
-          imageUrlProp: "https://cdn.quasar.dev/img/parallax1.jpg",
-          title: "Mountain Image",
-          subtitle: "A mountain image with a caption.",
-          followers: "100k",
-        },
-         {
-          imageUrlProp: "https://cdn.quasar.dev/img/parallax1.jpg",
-          title: "Mountain Image",
-          subtitle: "A mountain image with a caption.",
-          followers: "100k",
-        },
+        
         
       ],
     };

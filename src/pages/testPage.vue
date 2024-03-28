@@ -5,7 +5,7 @@
         <div class="q-pa-sm col-xs-12 col-sm-6 col-md-3">
           <div style="outline: none">
             <img
-              src="../assets/cards/parallax1.jpg"
+              :src="props.row.imageUrlProp"
               width="100%"
               height="160px"
             />
@@ -31,7 +31,7 @@
         <div class="q-pa-sm col-xs-12 col-sm-6 col-md-3">
           <div style="outline: none">
             <img
-              src="../assets/cards/mountains.jpg"
+              :src="props.row.imageUrlProp"
               width="100%"
               height="160px"
             />
@@ -55,7 +55,7 @@
         </div>
         <div class="q-pa-sm col-xs-12 col-sm-6 col-md-3">
           <div style="outline: none">
-            <img src="../assets/cards/quasar.jpg" width="100%" height="160px" />
+            <img :src="props.row.imageUrlProp" width="100%" height="160px" />
             <div
               class="flex flex-start items-center"
               style="gap: 15px; margin-top: 15px"
@@ -77,7 +77,7 @@
         <div class="q-pa-sm col-xs-12 col-sm-6 col-md-3">
           <div style="outline: none">
             <img
-              src="../assets/cards/parallax1.jpg"
+             :src="props.row.imageUrlProp"
               width="100%"
               height="160px"
             />
@@ -107,74 +107,14 @@
 <script>
 
 const rows = [
-  {
-    imageUrlProp: "https://cdn.quasar.dev/img/parallax1.jpg",
-    title: "Mountain Image",
-    subtitle: "A mountain image with a caption.",
-    followers: "100k",
-  },
-  {
-    imageUrlProp: "https://cdn.quasar.dev/img/parallax1.jpg",
-    title: "Mountain Image",
-    subtitle: "A mountain image with a caption.",
-    followers: "100k",
-  },
-  {
-    imageUrlProp: "https://cdn.quasar.dev/img/parallax1.jpg",
-    title: "Mountain Image",
-    subtitle: "A mountain image with a caption.",
-    followers: "100k",
-  },
-  {
-    imageUrlProp: "https://cdn.quasar.dev/img/parallax1.jpg",
-    title: "Mountain Image",
-    subtitle: "A mountain image with a caption.",
-    followers: "100k",
-  },
-  {
+   {
     imageUrlProp: "https://cdn.quasar.dev/img/mountains.jpg",
     title: "Mountain Image",
     subtitle: "A mountain image with a caption.",
     followers: "100k",
   },
   {
-    imageUrlProp: "https://cdn.quasar.dev/img/mountains.jpg",
-    title: "Mountain Image",
-    subtitle: "A mountain image with a caption.",
-    followers: "100k",
-  },
-  {
-    imageUrlProp: "https://cdn.quasar.dev/img/mountains.jpg",
-    title: "Mountain Image",
-    subtitle: "A mountain image with a caption.",
-    followers: "100k",
-  },
-  {
-    imageUrlProp: "https://cdn.quasar.dev/img/mountains.jpg",
-    title: "Mountain Image",
-    subtitle: "A mountain image with a caption.",
-    followers: "100k",
-  },
-  {
-    imageUrlProp: "https://cdn.quasar.dev/img/quasar.jpg",
-    title: "Mountain Image",
-    subtitle: "A mountain image with a caption.",
-    followers: "100k",
-  },
-  {
-    imageUrlProp: "https://cdn.quasar.dev/img/quasar.jpg",
-    title: "Mountain Image",
-    subtitle: "A mountain image with a caption.",
-    followers: "100k",
-  },
-  {
-    imageUrlProp: "https://cdn.quasar.dev/img/quasar.jpg",
-    title: "Mountain Image",
-    subtitle: "A mountain image with a caption.",
-    followers: "100k",
-  },
-  {
-    imageUrlProp: "https://cdn.quasar.dev/img/quasar.jpg",
+    imageUrlProp: "https://cdn.quasar.dev/img/parallax2.jpg",
     title: "Mountain Image",
     subtitle: "A mountain image with a caption.",
     followers: "100k",
@@ -185,24 +125,15 @@ const rows = [
     subtitle: "A mountain image with a caption.",
     followers: "100k",
   },
+ 
   {
-    imageUrlProp: "https://cdn.quasar.dev/img/parallax1.jpg",
+    imageUrlProp: "https://cdn.quasar.dev/img/quasar.jpg",
     title: "Mountain Image",
     subtitle: "A mountain image with a caption.",
     followers: "100k",
   },
-  {
-    imageUrlProp: "https://cdn.quasar.dev/img/parallax1.jpg",
-    title: "Mountain Image",
-    subtitle: "A mountain image with a caption.",
-    followers: "100k",
-  },
-  {
-    imageUrlProp: "https://cdn.quasar.dev/img/parallax1.jpg",
-    title: "Mountain Image",
-    subtitle: "A mountain image with a caption.",
-    followers: "100k",
-  },
+  
+ 
 ];
 </script>
 
