@@ -8,6 +8,7 @@
               :src="props.row.imageUrlProp"
               width="100%"
               height="160px"
+              style="border-radius: 10px;"
             />
             <div
               class="flex flex-start items-center"
@@ -34,6 +35,7 @@
               :src="props.row.imageUrlProp"
               width="100%"
               height="160px"
+              style="border-radius: 10px;"
             />
             <div
               class="flex flex-start items-center"
@@ -55,7 +57,7 @@
         </div>
         <div class="q-pa-sm col-xs-12 col-sm-6 col-md-3">
           <div style="outline: none">
-            <img :src="props.row.imageUrlProp" width="100%" height="160px" />
+            <img :src="props.row.imageUrlProp" width="100%" height="160px" style="border-radius: 10px;"/>
             <div
               class="flex flex-start items-center"
               style="gap: 15px; margin-top: 15px"
@@ -80,6 +82,7 @@
              :src="props.row.imageUrlProp"
               width="100%"
               height="160px"
+               style="border-radius: 10px;"
             />
             <div
               class="flex flex-start items-center"
